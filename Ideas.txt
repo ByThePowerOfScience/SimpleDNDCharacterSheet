@@ -1,0 +1,24 @@
+All fields from https://media.wizards.com/2022/dnd/downloads/DnD_5E_CharacterSheet_FormFillable.pdf
+Probably use it as a backdrop too, just for flavor
+
+For stats:
+	* An (i) icon that when hovered over will show what is affecting it
+	 	- Example:
+	 		AC: 17
+	 			+10 base
+	 			+4 Wisdom Modifier (Unarmored Defense)
+	 			+3 Dexterity Modifier
+	* Each stat will have temporary modifiers as a LIST not as one box
+		- Temporary modifiers will be as such:
+			"Name":
+				list of stats it affects and what should be added
+		- create Template temporary modifiers like for Bless or Bardic Inspiration that can be applied or even shared?
+		- Rasterize it into a button toggle so you can turn it off easier, or situationally
+			- if you're reading this: YES i know that's not what rasterize means but ever since I saw "Rasterize Layer" in photoshop I can't stop thinking of it as meaning "turn something into another something abstractly or representationally" so anyway *I* KNOW WHAT I MEAN
+		- Combine list of temporary effects into just one list?
+		- Turn stat number color green if it's being boosted by a temporary effect
+		- Maybe have modifiers be either classified as passive, temporary, or situational?
+	* Anything that's calculated should be able to be manually overridden in case there's a mechanic I didn't think about
+
+Save stats as JSON, export/import
+	-Also save in cache locally if I can figure that out
